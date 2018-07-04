@@ -1,15 +1,14 @@
 import React, { Component } from 'react';
-
+import logo from './stockmarkit.png'
 import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap';
+import './css/Navigation.css';
 
 class Navigation extends Component {
 	render() {
 		return (
 			<Navbar inverse collapseOnSelect staticTop>
 				<Navbar.Header>
-					<Navbar.Brand>
-						<a href="#brand">Stock Mark-It</a>
-						</Navbar.Brand>
+						<img src={logo} height="50px"/>
 					<Navbar.Toggle />
 				</Navbar.Header>
 				<Navbar.Collapse>

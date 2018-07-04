@@ -1,0 +1,11 @@
+.navbar img {
+    position: absolute;
+    left: 50%;
+    height: 100px;
+    margin-left: -50px !important;  /* 50% of your logo width */
+    display: block;
+    background-image: linear-gradient(to bottom, #3c3c3c 0%, #222 100%);
+    border-radius: 50px;
+    top:-45%;
+}
+

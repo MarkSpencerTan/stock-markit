@@ -22,6 +22,24 @@
   font-size: large;
 }
 
+/*top stocks*/
+
+#content h1{
+  font-family: 'Montserrat Subrayada', sans-serif;
+  font-size:30pt;
+}
+
+#content h1 .glyphicon{
+  font-size: 23pt;
+}
+
+#top button{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background: #36836B;
+    color:white;
+}
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
