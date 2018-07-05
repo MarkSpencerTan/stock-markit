@@ -9,3 +9,12 @@
     top:-45%;
 }
 
+#search_stock{
+	border-radius: 200px;
+    background: #36836B;
+    color:white;
+}
+
+#search_stock::placeholder{
+	color:lightgray;
+}

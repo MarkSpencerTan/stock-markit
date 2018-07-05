@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import Navigation from './Navigation';
-import App from './App';
+import Navigation from './components/Navigation';
+import App from './components/App';
 import registerServiceWorker from './registerServiceWorker';
 
 import './css/index.css';

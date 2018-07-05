@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import {Grid, Row, Col, Table} from 'react-bootstrap';
+import {Grid} from 'react-bootstrap';
 
-import './css/App.css';
+import '../css/App.css';
 import TopStocks from './TopStocks'
 
 
